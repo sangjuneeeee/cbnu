@@ -1,5 +1,6 @@
 select = int(input("1. 입력한 수식 계산 2. 두 수 사이의 합계 : "))
 
+
 if select == 1 :
     numStr = input(" *** 수식을 입력하세요 : ")
     answer = eval(numStr)
