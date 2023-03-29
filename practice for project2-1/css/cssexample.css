@@ -1,0 +1,8 @@
+h1{
+    color: red; /*#ff0000형식도 가능*/
+}
+
+h2{
+    color: blue;
+    background-color: aqua; /* 백그라운드 컬러 설정*/
+}
