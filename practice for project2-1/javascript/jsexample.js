@@ -10,7 +10,16 @@ const player = {//object 배열과 유사
     name: "상준",
     point: 10,
     fat: false,
+    sayHello : function(hi){//object 안의 function
+        console.log(hi);
+    }
 };
+
+
+function sayHi(hi){//function
+    console.log(hi);
+}
+
 //player=false; ,는 오류남 
 player.fat =true;//는 오류 안남 const
 player.age = 23;//추가됨
@@ -29,3 +38,7 @@ console.log(player);
 console.log(player.name);//== [player["name"]
 player.age += 15;
 console.log(player.age);
+
+const hi = "hi my name is sangjun";
+player.sayHello(hi);//object안의 function 호출
+sayHi(hi);//or sayHi("hello"); 하면 hello 뜸
