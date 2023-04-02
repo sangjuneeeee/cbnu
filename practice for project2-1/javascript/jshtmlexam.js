@@ -28,5 +28,14 @@ function handleOut(){
 }
 title.addEventListener("click", handleClick);//handle에 괄호를 안하면 js가 자동 실행해줌
 title.addEventListener("mouseenter", handleIn);
+//title.onmouseenter = handIn; 과 동일함
+//removeEventListener를 사용할 수 있기 때문에 addEventListner선호
+
 title.addEventListener("mouseleave", handleOut);
 //elements에서 앞에 on 써있는건 event들임, 쓸 때는 on 빼고 씀
+
+//https://developer.mozilla.org/ko/docs/Web/API/Document_Object_Model에서 다양한 event 검색 가능
+function windowcopy(){
+    alert("copied!");
+}
+window.addEventListener("copy", windowcopy);//online > wifi on, offline > wifi off 등 같은 것도 있음 많음 찾아보셈
