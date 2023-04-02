@@ -16,8 +16,17 @@ querySelectorAll이나 getElementByClassName()같은건 array로 받아옴*/
 console.dir(hello);
 
 
-function handle(){
+function handleClick(){
     console.log("click!");
-    title.style.color = "blue";
+    title.style.color = "blue";//js에서 style을 바꿀 순 있지만 css에서 하는게 좋음
 }
-title.addEventListener("click", handle);//handle에 괄호를 안하면 js가 자동 실행해줌
+function handleIn(){
+    title.innerText = "mouse in!";
+}
+function handleOut(){
+    title.innerText = "mouse out!";
+}
+title.addEventListener("click", handleClick);//handle에 괄호를 안하면 js가 자동 실행해줌
+title.addEventListener("mouseenter", handleIn);
+title.addEventListener("mouseleave", handleOut);
+//elements에서 앞에 on 써있는건 event들임, 쓸 때는 on 빼고 씀
