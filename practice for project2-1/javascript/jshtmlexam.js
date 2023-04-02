@@ -17,8 +17,11 @@ console.dir(hello);
 
 
 function handleClick(){
-    console.log("click!");
-    title.style.color = "blue";//js에서 style을 바꿀 순 있지만 css에서 하는게 좋음
+    if(title.style.color === "blue"){//js에서 style을 바꿀 순 있지만 css에서 하는게 좋음
+        title.style.color = "tomato";
+    }else{
+        title.style.color = "blue"
+    }
 }
 function handleIn(){
     title.innerText = "mouse in!";
