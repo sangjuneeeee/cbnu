@@ -1,0 +1,25 @@
+<html lang="kor">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- head에 js불러오면 html 불러오다 js > 다시 html 마저 불러옴,
+    단점:스크립트 양에 따라 불러오는 시간 오래 걸릴 수 있음 -->
+    <title>누군가의 페이지</title> <!-- js에서 타이틀명 변경가능 -->
+</head>
+<body>
+    <h1 id = "title">hello JS!</h1>
+   
+    <div class = "hello">
+        <h2>this is h2 first</h2>
+    </div>
+    <div class = "hello">
+        <h2>this is h2 second</h2>
+    </div>
+    <script src="jshtmlexam.js"></script>
+    <!-- body 태그 끝에 js불러오면 html을 모두 실행 후 js실행
+    단점: 웹페이지에 스크립트 동작을 많이 넣어둘 경우에 원하는 모양의 페이지를 한 번에 불러올 수 없습니다.
+    defer src="" : 선언한대로 순서됨
+    async scr="" : js크기에 따라 불러오는 속도 다름 순서 상관없을 때 사용됨 -->
+</body>
+</html>
