@@ -3,6 +3,7 @@ git pull
 git switch -c branchname
 > tagname/issue-anithing  
 
+
 //touch test.txt 파일 생성  
 //vi test.txt (:wq 는 저장 후 종료 q는 종료)  
 git add test.txt //스테이징  
