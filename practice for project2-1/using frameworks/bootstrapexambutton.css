@@ -1,0 +1,8 @@
+.btn-dark{
+    background-color: rgb(130, 42, 212);
+}
+/* hover 마우스 올려놓으면 바뀜 */
+.btn-dark:hover{
+    background-color: pink;
+    color: orange;
+}
