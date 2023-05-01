@@ -1,9 +1,16 @@
-import Post from './component/post'
+import Post from './components/post'
 
 function App() {
-  const [count, setCount] = useState(0)
+return (
+  <main>
+      <Post/>   
+      <Post/>    
+      <Post/>
+    </main>
+  );
 
-  return <Post/>
+
+
 }
 
 export default App;
