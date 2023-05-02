@@ -1,16 +1,9 @@
-import Post from './components/post'
+import Map from './components/Map'
 
 function App() {
 return (
-  <main>
-      <Post/>   
-      <Post/>    
-      <Post/>
-    </main>
+  <Map/>
   );
-
-
-
 }
 
 export default App;
