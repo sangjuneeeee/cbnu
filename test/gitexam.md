@@ -18,7 +18,7 @@ git switch main
 git pull  
 git merge branchname  
 git switch branchname  
-git push origin branchname  
+git push origin branchname 
 --> origin : 원격저장소를 부르는 별명  
 --> origin에 있는 브랜치인 branchname에 형이 현재 있는 브랜치를 push하시오
 
